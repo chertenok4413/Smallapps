@@ -169,10 +169,29 @@
     font-weight: 400;
 }
 
+.features__main {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+
 aside {
-    width: 312px;
+    width: 250px;
     float: left;
 }
+
+.heading__one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.heading__one img {
+    vertical-align: middle;
+}
+/* .heading__text {
+    justify-content: flex-end;
+} */
 
 article {
     display: block;
