@@ -9,6 +9,18 @@ body {
     padding: 0;
 }
 
+@font-face{
+
+    font-family: 'Droid Serif';
+    
+    src: local("Droid Serif"),
+       /* Если не получилось, загрузит woff2 */
+       url("../fonts/DroidSerif-Italic.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("../fonts/DroidSerif-Italic.woff") format("woff");
+    
+    }
+
 .header {
     display: flex;
     max-width: 1170px;
@@ -397,4 +409,60 @@ article p {
 
 .qeature {
     width: 1052px;
+}
+
+.reviews {
+    margin: 0 auto;
+    text-align: center;
+}
+.reviews h3 {
+    margin-top: 104px;
+    color: #636c6c;
+    font-size: 36px;
+    font-weight: 700;
+}
+.rev__carousel {
+    margin: 0 auto;
+    width: 643px;
+    height: 271px;
+}
+
+.carousel {
+    margin: auto;
+    margin-top: 38px;
+}
+.carousel-inner {
+    width: 643px;
+}
+.carousel-item {
+    height: 271px;
+}
+.carousel-caption {
+    bottom: 0;
+    padding-top: 47px;
+}
+.carousel-caption p {
+    color: #8c9494;
+    font-family: "Droid Serif";
+    font-size: 24px;
+    font-style: italic;
+}
+.carousel-caption h5 {
+    color: #5dca88;
+    font-size: 24px;
+    font-weight: 400;
+}
+.carousel-indicators {
+    bottom: -45px;
+}
+.carousel-indicators .active {
+    background-color: #5dca88;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: #8c9494;
 }
