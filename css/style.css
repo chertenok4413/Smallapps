@@ -535,6 +535,47 @@ button {
     font-weight: 700;
     text-transform: uppercase;
 }
+button:hover {
+    background: #3ea567;
+}
 button:focus {
     outline: none;
+}
+
+.footer {
+    width: 100%;
+    background-color: #2d312f;
+}
+.footer__wrap {
+    width: 410px;
+    margin: 0 auto;
+    padding: 75px 0 49px 0;
+    text-align: center;
+}
+.footer__wrap h3 {
+    color: #8c9494;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.footer__social {
+    padding-top: 34px;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.footer__bottom a {
+    text-decoration: none;
+}
+.footer__bottom a:hover {
+    color: #8c9494;
+    text-decoration: underline;
+}
+.footer__bottom p {
+    color: #8c9494;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
 }

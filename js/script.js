@@ -20,3 +20,7 @@
       }
       ]
   });
+
+document.getElementById("btn_clear").onclick = function(e) {
+    document.getElementById("text_btn").value = "";
+};
