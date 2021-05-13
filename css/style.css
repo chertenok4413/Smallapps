@@ -222,7 +222,13 @@ aside {
 
 .heading__one a {
     color: #9fa9a9;
+    /* padding-left: 30px; */
     text-decoration: none;
+}
+
+.active img {
+    /* filter: hue-rotate(360deg); */
+    filter: sepia(0.4) hue-rotate(90deg) saturate(5);
 }
 
 .active a {
