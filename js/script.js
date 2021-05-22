@@ -7,7 +7,7 @@
     arrows: true,
     responsive:[
       {
-          breakpoint: 768,
+          breakpoint: 1280,
           settings: {
               slidesToShow:2
           }
@@ -21,7 +21,7 @@
       ]
   });
 
-var navs = document.querySelectorAll(".item");
+var navs = document.querySelectorAll(".item__text");
     for (var nav of navs) {
         nav.addEventListener('click', function () {
             navs.forEach(i => i.classList.remove('active'));
