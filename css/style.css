@@ -682,7 +682,7 @@ button:focus {
         margin-top: 107px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .header__menu {
         align-items: stretch;
     }
