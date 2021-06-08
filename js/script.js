@@ -8,7 +8,6 @@
         {
             breakpoint: 1080,
             settings: {
-                slidesToShow: 3,
                 adaptiveHeight: true
             }
         },
@@ -20,9 +19,11 @@
             }
         },
         {
-            breakpoint: 425,
+            breakpoint: 424,
             settings: {
-                slidesToShow: 1
+                slidesToScroll: 1,
+                slidesToShow: 1,
+                dots: false
             }
         }
     ]
