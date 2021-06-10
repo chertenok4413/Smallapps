@@ -8,22 +8,25 @@
         {
             breakpoint: 1080,
             settings: {
-                adaptiveHeight: true
+                adaptiveHeight: true,
+                slidesToScroll: 3,
+                slidesToShow: 3,
             }
         },
         {
             breakpoint: 991,
             settings: {
+                adaptiveHeight: true,
                 slidesToScroll: 2,
                 slidesToShow: 2
             }
         },
         {
-            breakpoint: 424,
+            breakpoint: 425,
             settings: {
+                adaptiveHeight: true,
                 slidesToScroll: 1,
-                slidesToShow: 1,
-                dots: false
+                slidesToShow: 1
             }
         }
     ]
